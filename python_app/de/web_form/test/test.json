@@ -1,0 +1,79 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 0, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "amount_based_on_field": 0, 
+ "breadcrumbs": "[{\"label\": _(\"test\"), \"route\":\"test\"}]", 
+ "creation": "2018-09-19 16:06:37.478801", 
+ "doc_type": "DashTable", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "introduction_text": "test", 
+ "is_standard": 1, 
+ "login_required": 0, 
+ "max_attachment_size": 0, 
+ "modified": "2018-09-19 16:10:51.992863", 
+ "modified_by": "Administrator", 
+ "module": "de", 
+ "name": "test", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "test_from", 
+ "show_in_grid": 0, 
+ "show_sidebar": 1, 
+ "sidebar_items": [
+  {
+   "enabled": 0, 
+   "reference_doctype": "Single Doctype", 
+   "route": "update-profile", 
+   "title": "Update profile"
+  }
+ ], 
+ "success_message": "Sucssess", 
+ "success_url": "/test_page", 
+ "title": "test", 
+ "web_form_fields": [
+  {
+   "fieldname": "test", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Test", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0, 
+   "show_in_filter": 0
+  }, 
+  {
+   "fieldname": "data1", 
+   "fieldtype": "Select", 
+   "hidden": 0, 
+   "label": "select", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "x\ny\nz", 
+   "read_only": 0, 
+   "reqd": 0, 
+   "show_in_filter": 0
+  }, 
+  {
+   "fieldname": "amended_from", 
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "label": "Amended From", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "DashTable", 
+   "read_only": 0, 
+   "reqd": 0, 
+   "show_in_filter": 0
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "content": null, 
+ "creation": "2018-09-15 14:35:46.743220", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "idx": 0, 
+ "modified": "2018-09-15 14:35:49.876525", 
+ "modified_by": "Administrator", 
+ "module": "de", 
+ "name": "test", 
+ "owner": "Administrator", 
+ "page_name": "Test", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "system_page": 0
+}

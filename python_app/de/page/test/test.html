@@ -1,0 +1,21 @@
+
+
+{% for (var i=1; i<= 3; i++) { %}
+{% if  (frappe.session.user == name) %}
+
+<div>
+<h1 class="test">Hello World </h1>
+<h1>{%= frappe.session.user %}</h1>
+</div>
+
+{% endif %}
+
+{% } %}
+
+{% if  (frappe.session.user != name) %}
+<div>
+<h1>Pythn Course </h1>
+<h1>{%= frappe.session.user %}</h1>
+</div>
+
+{% endif %}

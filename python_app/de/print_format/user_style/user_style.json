@@ -1,0 +1,23 @@
+{
+ "align_labels_right": 0, 
+ "creation": "2018-09-19 16:24:19.508487", 
+ "custom_format": 1, 
+ "default_print_language": "ar", 
+ "disabled": 0, 
+ "doc_type": "DashTable", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Arial", 
+ "html": "\n<div>\n    {% if letter_head and not no_letterhead -%}\n    <div class=\"letter-head\">{{ letter_head }}</div>\n    <hr>\n    {%endif%}\n</div>\n\n\n<h3>{{ doc.test or \"Invoice\" }}</h3>", 
+ "idx": 0, 
+ "line_breaks": 0, 
+ "modified": "2018-09-19 16:37:17.750909", 
+ "modified_by": "Administrator", 
+ "module": "de", 
+ "name": "user style", 
+ "owner": "Administrator", 
+ "print_format_builder": 0, 
+ "print_format_type": "Client", 
+ "show_section_headings": 0, 
+ "standard": "Yes"
+}
